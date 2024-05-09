@@ -6,7 +6,7 @@
 
             @foreach ($products as $product)
                 <div href="#" class="card">
-                    <img src="{{ Vite::asset('resources/img/' . $product['backImage']) }}" alt="" class="fir-image" />
+                    <img src="{{ Vite::asset('resources/img/' . $product['frontImage']) }}" alt="" class="fir-image" />
                     <img src="{{ Vite::asset('resources/img/' . $product['backImage']) }}" alt="" class="sec-image" />
                     <span class="heart">&hearts;</span>
                     <div class="badges">
