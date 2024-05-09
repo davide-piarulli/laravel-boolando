@@ -1,0 +1,48 @@
+footer {
+    width: 100%;
+    background-color: $bg-color-footer;
+    color: $text-primary;
+    ul {
+      justify-content: space-between;
+      padding: 5px 0;
+    }
+    .container {
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+  .footer-left{
+    span {
+      font-size: 1.3rem;
+    }
+    a {
+      color: $text-footer;
+  ;
+      text-decoration: none;
+      padding-right: 10px;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  .footer-right li:hover .fa-x-twitter {
+    color: black;
+  }
+
+  .footer-right li:hover .fa-facebook {
+    color: blue;
+  }
+
+  .footer-right li:hover .fa-square-instagram {
+    color: purple;
+  }
+
+  .footer-right li:hover .fa-square-pinterest {
+    color: red;
+  }
+
+  .footer-right li:hover .fa-youtube {
+    color: red;
+  }
+
+  }
