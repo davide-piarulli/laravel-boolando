@@ -3,22 +3,28 @@
         <div class="container d-flex">
             <nav class="menu left">
                 <ul class="d-flex">
-                    <li v-for="(item, index) in menu" :key="index">
-                        <a href="#">{{ item . title }}</a>
+                    <li>
+                        <a href="{{ route('donna') }}">Donna</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('uomo') }}">Uomo</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('bambini') }}">Bambini</a>
                     </li>
                 </ul>
             </nav>
 
             <div class="logo">
-                <img src="../assets/img/boolean-logo.png" alt="Booleando Logo" />
+                {{-- <img src="/img/boolean-logo.png" alt="Booleando Logo" /> --}}
             </div>
 
             <div class="menu right">
                 <nav>
                     <ul class="d-flex">
-                        <li v-for="(item, index) in icons" :key="index">
+                        {{-- <li v-for="(item, index) in icons" :key="index">
                             <a :href="item.link" v-html="item.pic"></a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </nav>
             </div>
