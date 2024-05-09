@@ -16,15 +16,21 @@
             </nav>
 
             <div class="logo">
-                {{-- <img src="/img/boolean-logo.png" alt="Booleando Logo" /> --}}
+                <img src="img/boolean-logo.png" alt="Booleando Logo" />
             </div>
 
             <div class="menu right">
                 <nav>
                     <ul class="d-flex">
-                        {{-- <li v-for="(item, index) in icons" :key="index">
-                            <a :href="item.link" v-html="item.pic"></a>
-                        </li> --}}
+                        <li>
+                            <i class="fa-regular fa-user"></i>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-heart"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </li>
                     </ul>
                 </nav>
             </div>

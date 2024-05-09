@@ -15,8 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $products = config('products');
-    // QUI DA SISTEMARE, IN TEORIA DA AGGINGERE PRODUCTS NEL RETURN
-    return view('homepage');
+    return view('homepage', compact('products'));
 })->name('homepage');
 
 Route::get('/donna', function () {

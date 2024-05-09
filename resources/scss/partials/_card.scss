@@ -1,0 +1,58 @@
+.card {
+    margin-bottom: 10px;
+    position: relative;
+    img {
+      max-width: 320px;
+    }
+    &:hover .sec-image {
+      display: block;
+    }
+    .sec-image {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .prod-title {
+      text-transform: uppercase;
+    }
+    .heart {
+      position: absolute;
+      background-color: $bg-color-main;
+      top: 10px;
+      right: 0;
+      width: 35px;
+      height: 35px;
+      font-size: 1.5rem;
+      text-align: center;
+      &:hover {
+        color: $icon-heart-hover;
+      }
+    }
+    .badges {
+      position: absolute;
+      bottom: 80px;
+      left: 0;
+      .badge {
+        padding: 5px 10px;
+        color: $text-primary;
+        font-weight: 700;
+      }
+      .disc {
+        background-color: $bg-color-discount;
+      }
+      .sost {
+        background-color: $bg-color-tag;
+      }
+    }
+    .brand {
+      font-size: 0.8rem;
+    }
+    .prod-disc-price {
+      color: $text-disc-price;
+      font-weight: 800;
+    }
+    .prod-price {
+      text-decoration: line-through;
+    }
+  }
