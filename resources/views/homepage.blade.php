@@ -5,8 +5,8 @@
         <div class="row d-flex">
 
             <div href="#" class="card">
-                <img :src="getImagePath(product.frontImage)" :alt="product.frontImage" class="fir-image" />
-                <img :src="getImagePath(product.backImage)" :alt="product.backImage" class="sec-image" />
+                {{-- <img :src="getImagePath(product.frontImage)" :alt="product.frontImage" class="fir-image" /> --}}
+                {{-- <img :src="getImagePath(product.backImage)" :alt="product.backImage" class="sec-image" /> --}}
                 <span class="heart">&hearts;</span>
                 <div class="badges">
                     <span class="badge disc">-50%</span>
